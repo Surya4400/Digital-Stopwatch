@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    bottom: 20px;
+    background-color:#0096c7;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color:#48CAE4;
+    }
+
+.container {
+    background-color: #023e8a;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(71, 0, 114, 0.338);
+}
+.time-display{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    background-color:#0077b6;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000030;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background: none;
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: #48cae4;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    cursor: pointer;
+    outline:none;
+}
+#START{
+    background-color:rgb(207, 207, 26);
+}
+#PAUSE{
+    background-color: rgb(18, 148, 18);
+}
+#RESET{
+    background-color: rgb(222, 21, 21);
+}
